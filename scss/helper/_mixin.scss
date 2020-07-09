@@ -1,0 +1,21 @@
+@mixin search {
+  input {
+    border: transparent;
+    &:focus {
+      box-shadow: none;
+    }
+    &::placeholder {
+      color: red;
+    }
+  }
+  i {
+    padding: 12px;
+    background-color: $color;
+    color: red;
+    cursor: pointer;
+    &:hover {
+      background-color: red;
+      color: $color;
+    }
+  }
+}

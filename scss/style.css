@@ -1,3 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px; }
+
+.header__left {
+  display: flex;
+  align-items: center; }
+  .header__left a {
+    flex-grow: 1; }
+  .header__left .categories {
+    flex-grow: 1; }
+  .header__left form {
+    flex-grow: 5; }
+    .header__left form .input-group {
+      border: 1px solid #eeeeee; }
+    .header__left form input {
+      border: transparent; }
+      .header__left form input:focus {
+        box-shadow: none; }
+      .header__left form input::placeholder {
+        color: red; }
+    .header__left form i {
+      padding: 12px;
+      background-color: white;
+      color: red;
+      cursor: pointer; }
+      .header__left form i:hover {
+        background-color: red;
+        color: white; }
+
+.btn__login {
+  border: 1px solid; }
+
+.carousel {
+  background-image: url(./../../img/cover.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .carousel form input {
+    border: transparent; }
+    .carousel form input:focus {
+      box-shadow: none; }
+    .carousel form input::placeholder {
+      color: red; }
+  .carousel form i {
+    padding: 12px;
+    background-color: white;
+    color: red;
+    cursor: pointer; }
+    .carousel form i:hover {
+      background-color: red;
+      color: white; }
 
 /*# sourceMappingURL=style.css.map */

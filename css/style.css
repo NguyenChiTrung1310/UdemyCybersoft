@@ -4,8 +4,8 @@
   margin: 0; }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px; }
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px; }
 
 .header__left {
   display: flex;
@@ -58,5 +58,51 @@ body {
     .carousel form i:hover {
       background-color: red;
       color: white; }
+
+.courses .service {
+  background-color: lightcoral;
+  color: #fff;
+  height: 110px; }
+  .courses .service span {
+    font-size: 60px;
+    margin-top: -12px; }
+  .courses .service .service__text-title {
+    font-weight: bold; }
+  .courses .service .service__text-content {
+    font-size: 14px; }
+.courses .courses__list .main-courses {
+  padding-top: 25px; }
+  .courses .courses__list .main-courses .left-side {
+    background-color: #f3f3f3;
+    padding: 20px;
+    height: 350px; }
+    .courses .courses__list .main-courses .left-side h3 {
+      font-size: 19px;
+      font-weight: 700;
+      line-height: 1.47em; }
+    .courses .courses__list .main-courses .left-side p {
+      color: #29303b; }
+  .courses .courses__list .main-courses .right-side .nav-pills li {
+    margin: 20px; }
+  .courses .courses__list .main-courses .right-side .nav-pills li a {
+    color: #000;
+    text-decoration: none; }
+  .courses .courses__list .main-courses .right-side .course {
+    padding: 5px; }
+    .courses .courses__list .main-courses .right-side .course .course-item {
+      border: 1px solid #e6e1e1;
+      height: 300px; }
+      .courses .courses__list .main-courses .right-side .course .course-item img {
+        width: 100%; }
+      .courses .courses__list .main-courses .right-side .course .course-item .course-item__title {
+        margin-top: 12px;
+        font-size: 15px;
+        font-weight: 600; }
+      .courses .courses__list .main-courses .right-side .course .course-item .course-item__content {
+        color: #a5a3a3; }
+      .courses .courses__list .main-courses .right-side .course .course-item .rating {
+        margin: auto; }
+        .courses .courses__list .main-courses .right-side .course .course-item .rating .rating_number {
+          font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */

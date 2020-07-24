@@ -19,3 +19,13 @@
     }
   }
 }
+@mixin display {
+  display: flex;
+}
+@mixin navbar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 110px;
+  list-style: none;
+}

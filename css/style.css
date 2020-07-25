@@ -155,6 +155,20 @@ body {
 .footer__links--bottom ul li a {
   text-decoration: none; }
 
+.carousel__items {
+  height: 200px;
+  position: relative;
+  border: 1px solid #dadada;
+  margin: 5px;
+  background: #fff; }
+
+.carousel__items-block {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-30%, -30%); }
+
 .courses .service {
   background: linear-gradient(to right, #521822, #ec5252);
   color: #fff;

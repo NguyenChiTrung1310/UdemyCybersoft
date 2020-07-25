@@ -64,3 +64,30 @@
 .footer__links--bottom ul li a {
   text-decoration: none;
 }
+// .carousel__items-categories {
+//   background: #fff;
+//   height: 200px;
+// }
+// .carousel-items {
+//   background: #fff;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   text-align: center;
+//   height: 200px;
+// }
+.carousel__items {
+  height: 200px;
+  position: relative;
+  border: 1px solid rgb(218, 218, 218);
+  margin: 5px;
+  background: #fff;
+}
+.carousel__items-block {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  // -ms-transform: translate(-50%, -50%);
+  transform: translate(-30%, -30%);
+}

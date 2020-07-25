@@ -1,0 +1,18 @@
+.students{
+    h1{
+        font-size: $fs-3;
+        margin-top: $mg-2;
+    }
+    .course-item__title{
+        margin-top: 12px;
+
+        font-size: 15px;
+        font-weight: 600;
+      }
+
+      .course-item__author{
+        color: $color-black-light;
+        font-size: $fs-1;
+        text-align: left;
+      }
+}

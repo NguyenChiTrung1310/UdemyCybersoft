@@ -1,0 +1,46 @@
+@mixin search {
+  input {
+    border: transparent;
+    // position: relative;
+    &:focus {
+      box-shadow: none;
+    }
+    &::placeholder {
+      color: red;
+    }
+  }
+  i {
+    padding: 12px;
+    background-color: $color;
+    color: red;
+    cursor: pointer;
+    &:hover {
+      background-color: red;
+      color: $color;
+    }
+  }
+}
+@mixin display {
+  display: flex;
+}
+@mixin navbar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 110px;
+  list-style: none;
+}
+
+span {
+  padding: 12px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  transition: all 0.3s ease-in-out;
+  color: $color-red-0;
+  &:hover {
+    color: $color-black-0;
+  }
+}

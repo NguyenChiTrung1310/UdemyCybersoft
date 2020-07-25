@@ -1,0 +1,66 @@
+/* TOP-CATEGORIES */
+.top-categories {
+  margin-top: 50px;
+  font-weight: bold;
+}
+.border-items {
+  height: 50px;
+  width: 260px;
+  border: 1px solid #a1a1a1;
+  box-shadow: 1px 1px 5px #a1a1a1;
+}
+.carousel__categories--light-grey {
+  background-color: #f7f8fa;
+}
+.carousel__categories {
+  margin-top: 50px;
+}
+.carousel__categories--items {
+  @include display();
+}
+.logo-item {
+  padding-left: 80px;
+}
+.non-student-cta-wrapper {
+  @extend .carousel__categories;
+  @include display();
+  padding-bottom: 30px;
+}
+.non-student-cta {
+  justify-content: center;
+  flex-grow: 1;
+  display: flex;
+  padding: 36px 0 22px;
+  border-right: 1px solid #dedfe0;
+}
+.non-student-cta__text {
+  max-width: 400px;
+  text-align: center;
+}
+.non-student-cta__content {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-top: 3px;
+  text-align: center;
+}
+.container-fluid {
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer__links--main ul {
+  @include navbar();
+}
+.footer__links--main ul li a {
+  text-decoration: none;
+}
+.logo__udemy {
+  @include display();
+}
+.footer__links--bottom ul {
+  @include navbar();
+}
+.footer__links--bottom ul li a {
+  text-decoration: none;
+}

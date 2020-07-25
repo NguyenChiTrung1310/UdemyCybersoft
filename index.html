@@ -43,7 +43,7 @@
           <form>
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Search for course" />
-              <i class="fa fa-search"></i>
+              <span><i class="fa fa-search"></i></span>
             </div>
           </form>
         </div>
@@ -55,16 +55,16 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Udemy for Business</a>
             </li>
-            <li class="nav-item border-right">
+            <li class="nav-item border-right ml-4">
               <a class="nav-link" href="#">Teach on Udemy</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <i class="fas fa-shopping-cart"></i>
+                <span><i class="fas fa-shopping-cart"></i></span>
               </a>
             </li>
             <li>
-              <button class="btn btn__login">Loign</button>
+              <button class="btn btn_login">Loign</button>
               <button class="btn btn-danger">Sign up</button>
             </li>
           </ul>
@@ -89,8 +89,8 @@
           </p>
           <form>
             <div class="input-group">
-              <input type="text" class="form-control" />
-              <i class="fa fa-search"></i>
+              <input type="text" class="form-control" placeholder="What do you want to learn?" />
+              <span><i class="fa fa-search"></i></span>
             </div>
           </form>
         </div>
@@ -191,8 +191,67 @@
                     <div class="col-md-3 course">
                       <div class="course-item text-center">
                         <img class="img-fluid" src="./img/kh1.jpg" alt="" />
-                        <h5 class="course-item__title">The Ultimate MySQL Bootcamp: Go fro...</h5>
-                        <p class="course-item__content">Colt Steele lan Schoonover</p>
+                        <div class="info">
+                          <h5 class="course-item__title">The Ultimate MySQL Bootcamp: Go fro...</h5>
+                          <p class="course-item__author">Colt Steele lan Schoonover</p>
+                        </div>
+                        <div class="rating d-flex justify-content-center">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <p class="rating_number ml-2">4.6(11.597)</p>
+                        </div>
+                        <p class="price text-right">$9.99</p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 course">
+                      <div class="course-item text-center">
+                        <img class="img-fluid" src="./img/kh2.jpg" alt="" />
+                        <div class="info">
+                          <h5 class="course-item__title">Learning Python for Data Analysis a...</h5>
+                          <p class="course-item__author">Jose Portilla</p>
+                        </div>
+                        <div class="rating d-flex justify-content-center">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <p class="rating_number ml-2">4.6(11.597)</p>
+                        </div>
+                        <p class="price text-right">$9.99</p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 course">
+                      <div class="course-item text-center">
+                        <img class="img-fluid" src="./img/kh3.jpg" alt="" />
+                        <div class="info">
+                          <h5 class="course-item__title">Advanced CSS and Sass: Flexbox, Grid,...</h5>
+                          <p class="course-item__author">Jonas Schemadtman</p>
+                        </div>
+                        <div class="rating d-flex justify-content-center">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <p class="rating_number ml-2">4.6(11.597)</p>
+                        </div>
+                        <p class="price text-right">$9.99</p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 course">
+                      <div class="course-item text-center">
+                        <img class="img-fluid" src="./img/kh4.jpg" alt="" />
+                        <div class="info">
+                          <h5 class="course-item__title">Modern Javascript From The Beginning...</h5>
+                          <p class="course-item__author">Brad Traversy</p>
+                        </div>
                         <div class="rating d-flex justify-content-center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -208,8 +267,10 @@
                     <div class="col-md-3 course">
                       <div class="course-item text-center">
                         <img class="img-fluid" src="./img/kh1.jpg" alt="" />
-                        <h5 class="course-item__title">The Ultimate MySQL Bootcamp: Go fro...</h5>
-                        <p class="course-item__content">Colt Steele lan Schoonover</p>
+                        <div class="info">
+                          <h5 class="course-item__title">The Ultimate MySQL Bootcamp: Go fro...</h5>
+                          <p class="course-item__author">Colt Steele lan Schoonover</p>
+                        </div>
                         <div class="rating d-flex justify-content-center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -225,8 +286,10 @@
                     <div class="col-md-3 course">
                       <div class="course-item text-center">
                         <img class="img-fluid" src="./img/kh1.jpg" alt="" />
-                        <h5 class="course-item__title">The Ultimate MySQL Bootcamp: Go fro...</h5>
-                        <p class="course-item__content">Colt Steele lan Schoonover</p>
+                        <div class="info">
+                          <h5 class="course-item__title">The Ultimate MySQL Bootcamp: Go fro...</h5>
+                          <p class="course-item__author">Colt Steele lan Schoonover</p>
+                        </div>
                         <div class="rating d-flex justify-content-center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -242,8 +305,10 @@
                     <div class="col-md-3 course">
                       <div class="course-item text-center">
                         <img class="img-fluid" src="./img/kh1.jpg" alt="" />
-                        <h5 class="course-item__title">The Ultimate MySQL Bootcamp: Go fro...</h5>
-                        <p class="course-item__content">Colt Steele lan Schoonover</p>
+                        <div class="info">
+                          <h5 class="course-item__title">The Ultimate MySQL Bootcamp: Go fro...</h5>
+                          <p class="course-item__author">Colt Steele lan Schoonover</p>
+                        </div>
                         <div class="rating d-flex justify-content-center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -259,59 +324,10 @@
                     <div class="col-md-3 course">
                       <div class="course-item text-center">
                         <img class="img-fluid" src="./img/kh1.jpg" alt="" />
-                        <h5 class="course-item__title">The Ultimate MySQL Bootcamp: Go fro...</h5>
-                        <p class="course-item__content">Colt Steele lan Schoonover</p>
-                        <div class="rating d-flex justify-content-center">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <p class="rating_number ml-2">4.6(11.597)</p>
+                        <div class="info">
+                          <h5 class="course-item__title">The Ultimate MySQL Bootcamp: Go fro...</h5>
+                          <p class="course-item__author">Colt Steele lan Schoonover</p>
                         </div>
-                        <p class="price text-right">$9.99</p>
-                      </div>
-                    </div>
-
-                    <div class="col-md-3 course">
-                      <div class="course-item text-center">
-                        <img class="img-fluid" src="./img/kh1.jpg" alt="" />
-                        <h5 class="course-item__title">The Ultimate MySQL Bootcamp: Go fro...</h5>
-                        <p class="course-item__content">Colt Steele lan Schoonover</p>
-                        <div class="rating d-flex justify-content-center">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <p class="rating_number ml-2">4.6(11.597)</p>
-                        </div>
-                        <p class="price text-right">$9.99</p>
-                      </div>
-                    </div>
-
-                    <div class="col-md-3 course">
-                      <div class="course-item text-center">
-                        <img class="img-fluid" src="./img/kh1.jpg" alt="" />
-                        <h5 class="course-item__title">The Ultimate MySQL Bootcamp: Go fro...</h5>
-                        <p class="course-item__content">Colt Steele lan Schoonover</p>
-                        <div class="rating d-flex justify-content-center">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <p class="rating_number ml-2">4.6(11.597)</p>
-                        </div>
-                        <p class="price text-right">$9.99</p>
-                      </div>
-                    </div>
-
-                    <div class="col-md-3 course">
-                      <div class="course-item text-center">
-                        <img class="img-fluid" src="./img/kh1.jpg" alt="" />
-                        <h5 class="course-item__title">The Ultimate MySQL Bootcamp: Go fro...</h5>
-                        <p class="course-item__content">Colt Steele lan Schoonover</p>
                         <div class="rating d-flex justify-content-center">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>
@@ -336,6 +352,165 @@
           </div>
         </div>
       </div>
+  </section>
+
+  <section class="students">
+    <div class="container">
+      <h1>Students are viewing</h1>
+      <div class="student__carousel row">
+        <div class="col-md-2 course">
+          <div class="course-item text-center">
+            <img class="img-fluid" src="./img/kh8.jpg" alt="" />
+            <div class="info">
+              <h5 class="course-item__title">The Ultimate MySQL Bootcamp: Go from...</h5>
+              <p class="course-item__author">Colt Steele lan Schoonover</p>
+            </div>
+            <div class="rating d-flex justify-content-center">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <p class="rating_number ml-2">4.6(11.597)</p>
+            </div>
+            <p class="price text-right">$9.99</p>
+          </div>
+        </div>
+
+        <div class="col-md-2 course">
+          <div class="course-item text-center">
+            <img class="img-fluid" src="./img/kh9.jpg" alt="" />
+            <div class="info">
+              <h5 class="course-item__title">Advanced CSS and Sass: Flexbox, Grid,...</h5>
+              <p class="course-item__author">Jonas Schemadtman</p>
+            </div>
+            <div class="rating d-flex justify-content-center">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <p class="rating_number ml-2">4.6(11.597)</p>
+            </div>
+            <p class="price text-right">$9.99</p>
+          </div>
+        </div>
+
+        <div class="col-md-2 course">
+          <div class="course-item text-center">
+            <img class="img-fluid" src="./img/kh10.jpg" alt="" />
+            <div class="info">
+              <h5 class="course-item__title">Advanced CSS and Sass: Flexbox, Grid,...</h5>
+              <p class="course-item__author">Jonas Schemadtman</p>
+            </div>
+            <div class="rating d-flex justify-content-center">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <p class="rating_number ml-2">4.6(11.597)</p>
+            </div>
+            <p class="price text-right">$9.99</p>
+          </div>
+        </div>
+
+        <div class="col-md-2 course">
+          <div class="course-item text-center">
+            <img class="img-fluid" src="./img/kh11.jpg" alt="" />
+            <div class="info">
+              <h5 class="course-item__title">Advanced CSS and Sass: Flexbox, Grid,...</h5>
+              <p class="course-item__author">Jonas Schemadtman</p>
+            </div>
+            <div class="rating d-flex justify-content-center">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <p class="rating_number ml-2">4.6(11.597)</p>
+            </div>
+            <p class="price text-right">$9.99</p>
+          </div>
+        </div>
+
+        <div class="col-md-2 course">
+          <div class="course-item text-center">
+            <img class="img-fluid" src="./img/kh12.jpg" alt="" />
+            <div class="info">
+              <h5 class="course-item__title">Advanced CSS and Sass: Flexbox, Grid,...</h5>
+              <p class="course-item__author">Jonas Schemadtman</p>
+            </div>
+            <div class="rating d-flex justify-content-center">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <p class="rating_number ml-2">4.6(11.597)</p>
+            </div>
+            <p class="price text-right">$9.99</p>
+          </div>
+        </div>
+
+        <div class="col-md-2 course">
+          <div class="course-item text-center">
+            <img class="img-fluid" src="./img/kh13.jpg" alt="" />
+            <div class="info">
+              <h5 class="course-item__title">Advanced CSS and Sass: Flexbox, Grid,...</h5>
+              <p class="course-item__author">Jonas Schemadtman</p>
+            </div>
+            <div class="rating d-flex justify-content-center">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <p class="rating_number ml-2">4.6(11.597)</p>
+            </div>
+            <p class="price text-right">$9.99</p>
+          </div>
+        </div>
+
+        <div class="col-md-2 course">
+          <div class="course-item text-center">
+            <img class="img-fluid" src="./img/kh14.jpg" alt="" />
+            <div class="info">
+              <h5 class="course-item__title">Advanced CSS and Sass: Flexbox, Grid,...</h5>
+              <p class="course-item__author">Jonas Schemadtman</p>
+            </div>
+            <div class="rating d-flex justify-content-center">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <p class="rating_number ml-2">4.6(11.597)</p>
+            </div>
+            <p class="price text-right">$9.99</p>
+          </div>
+        </div>
+
+        <div class="col-md-2 course">
+          <div class="course-item text-center">
+            <img class="img-fluid" src="./img/kh4.jpg" alt="" />
+            <div class="info">
+              <h5 class="course-item__title">Advanced CSS and Sass: Flexbox, Grid,...</h5>
+              <p class="course-item__author">Jonas Schemadtman</p>
+            </div>
+            <div class="rating d-flex justify-content-center">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <p class="rating_number ml-2">4.6(11.597)</p>
+            </div>
+            <p class="price text-right">$9.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Optional JavaScript -->

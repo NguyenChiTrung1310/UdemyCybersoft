@@ -1,7 +1,12 @@
-@import "./helper/variable";
-@import "./helper/mixin";
-@import "./base/reset";
-@import "./components/header";
-@import "./components/carousel";
-@import "./layout/home";
-@import "./components/service";
+@import "./Helper/variable";
+@import "./Helper/mixin";
+
+@import "./Base/reset";
+
+@import "./Components/header";
+@import "./Components/carousel";
+@import "./Components/service";
+@import "./Components/students";
+
+
+// @import "./Layout/home";

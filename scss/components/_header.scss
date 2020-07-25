@@ -1,3 +1,5 @@
+@import './button';
+
 .header__left {
   display: flex;
   align-items: center;
@@ -15,11 +17,23 @@
 
     .input-group {
       border: 1px solid #eeeeee;
+      position: relative;
+      @include search();
+
     }
-    @include search();
   }
 }
 
-.btn__login {
-  border: 1px solid;
+.collapse{
+  ul{
+    li{
+      a{
+        font-size: $fs-0;
+        span{
+          font-size: $fs-0;
+          margin: 10px;
+        }
+      }
+    }
+  }
 }

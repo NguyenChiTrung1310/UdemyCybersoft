@@ -1,6 +1,6 @@
 .courses {
   .service {
-    background-color: lightcoral;
+    background: linear-gradient(to right, $color-red-1,$color-red-0);
     color: #fff;
     height: 110px;
 
@@ -52,17 +52,24 @@
             img{
               width: 100%;
             }
+            
+            .info{
+              padding: 10px;
+              text-align: left;
+              .course-item__title{
+                margin-top: 12px;
     
-            .course-item__title{
-              margin-top: 12px;
-  
-              font-size: 15px;
-              font-weight: 600;
+                font-size: 15px;
+                font-weight: 600;
+              }
+      
+              .course-item__author{
+                color: $color-black-light;
+                font-size: $fs-1;
+                
+              }
             }
-    
-            .course-item__content{
-              color: #a5a3a3;
-            }
+            
     
             .rating{
               margin: auto;

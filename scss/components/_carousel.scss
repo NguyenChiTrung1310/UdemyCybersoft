@@ -7,6 +7,10 @@
 
   display: flex;
   align-items: center;
+  
+  p{
+    font-size: $fs-2;
+  }
 
   form {
     @include search();

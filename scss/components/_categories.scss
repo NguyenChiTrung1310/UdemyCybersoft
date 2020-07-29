@@ -108,3 +108,58 @@
   left: 0;
   color: white;
 }
+.non-student-cta__header a {
+  text-decoration: none;
+  color: black;
+}
+.btn {
+  width: 200px;
+  border-radius: 5px;
+  height: 40px;
+  background: #ec5252;
+  border: none;
+}
+.btn:hover {
+  background: #772c2c;
+}
+.footer__links--main ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 110px;
+  font-size: 18px;
+}
+.footer-v6 .footer__links--main ul li {
+  flex: 25%;
+  flex-grow: 0;
+}
+.bold {
+  font-weight: 700;
+}
+a {
+  color: #007791;
+}
+
+.drop-list {
+  height: 30%;
+  width: 30%;
+  background: white;
+  border: 1px solid rgb(105, 105, 105);
+  position: relative;
+}
+.span-lang {
+  position: absolute;
+  color: rgb(105, 105, 105);
+}
+.drop-list-icon {
+  left: 0;
+  padding-left: 28px;
+  color: rgb(105, 105, 105);
+}
+.footer-udemy {
+  height: 34px;
+}
+.footer__copyright {
+  padding-right: 26rem;
+  color: black;
+}

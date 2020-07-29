@@ -155,19 +155,49 @@ body {
 .footer__links--bottom ul li a {
   text-decoration: none; }
 
-.carousel__items {
-  height: 200px;
-  position: relative;
-  border: 1px solid #dadada;
-  margin: 5px;
-  background: #fff; }
+.col-lg-3 a {
+  text-decoration: none;
+  color: black; }
 
 .carousel__items-block {
-  margin: 0;
+  margin-right: 13px; }
+
+.carousel__items-block-brand {
+  display: flex !important;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5em;
+  align-items: center;
+  margin-bottom: 18px; }
+
+.carousel__items {
+  padding: 50px;
+  margin-right: 15px;
+  background: #fff;
+  border: 1px solid #dadada; }
+
+.carousel__items-block-brand--img {
+  height: 70px;
+  border-radius: 20rem;
+  width: 70px; }
+
+.carousel__items-block-brand--name {
+  margin-left: 10px; }
+
+.user-avatar__inner {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  background: #6c757d;
+  border-radius: 50px; }
+
+.user-initials {
   position: absolute;
-  top: 30%;
-  left: 30%;
-  transform: translate(-30%, -30%); }
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  left: 0;
+  color: white; }
 
 .courses .service {
   background: linear-gradient(to right, #521822, #ec5252);

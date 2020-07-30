@@ -2,132 +2,136 @@
 .top-categories {
   margin-top: 50px;
   font-weight: bold;
+  .col-lg-3 a {
+    text-decoration: none;
+    color: $color-black-0;
+  }
+  .border-items {
+    height: 50px;
+    width: 260px;
+    border: 1px solid $color-gray-6;
+    box-shadow: 1px 1px 5px $color-gray-6;
+  }
 }
-.border-items {
-  height: 50px;
-  width: 260px;
-  border: 1px solid #a1a1a1;
-  box-shadow: 1px 1px 5px #a1a1a1;
-}
+// <!-- CAROUSEL-BORIVOJE-DIPESH-KATHY -->
 .carousel__categories--light-grey {
-  background-color: #f7f8fa;
+  background-color: $color-gray-5;
+  .carousel__categories {
+    margin-top: 50px;
+    .carousel__categories--items {
+      @include display();
+    }
+    .logo-item {
+      padding-left: 80px;
+    }
+    .carousel__items-block {
+      margin-right: 13px;
+    }
+    .carousel__items-block-brand {
+      display: flex !important;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.5em;
+      align-items: center;
+      margin-bottom: 18px;
+      .user-avatar__inner {
+        height: 70px;
+        width: 70px;
+        position: relative;
+        background: #6c757d;
+        border-radius: 50px;
+        .user-initials {
+          position: absolute;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          left: 0;
+          color: white;
+        }
+      }
+    }
+    .carousel__items {
+      padding: 50px;
+      margin-right: 15px;
+      background: #fff;
+      border: 1px solid rgb(218, 218, 218);
+    }
+    .carousel__items-block-brand--img {
+      height: 70px;
+      border-radius: 20rem;
+      width: 70px;
+    }
+    .carousel__items-block-brand--name {
+      margin-left: 10px;
+    }
+  }
 }
-.carousel__categories {
-  margin-top: 50px;
-}
-.carousel__categories--items {
-  @include display();
-}
-.logo-item {
-  padding-left: 80px;
-}
+// <!-- Trusted by companies of all sizes -->
 .non-student-cta-wrapper {
   @extend .carousel__categories;
   @include display();
   padding-bottom: 30px;
+  .non-student-cta {
+    justify-content: center;
+    flex-grow: 1;
+    display: flex;
+    padding: 36px 0 22px;
+    border-right: 1px solid $color-gray-7;
+    .non-student-cta__text {
+      max-width: 400px;
+      text-align: center;
+      .non-student-cta__content {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5em;
+        padding-top: 3px;
+        text-align: center;
+      }
+      .non-student-cta__header a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
 }
-.non-student-cta {
-  justify-content: center;
-  flex-grow: 1;
-  display: flex;
-  padding: 36px 0 22px;
-  border-right: 1px solid #dedfe0;
-}
-.non-student-cta__text {
-  max-width: 400px;
-  text-align: center;
-}
-.non-student-cta__content {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5em;
-  padding-top: 3px;
-  text-align: center;
-}
+
+// <!-- FOOTER -->
 .container-fluid {
   max-width: 1440px;
   padding-left: 20px;
   padding-right: 20px;
+  .footer__links--main ul {
+    @include navbar();
+  }
+  .logo__udemy {
+    @include display();
+  }
+  .footer__links--bottom ul {
+    @include navbar();
+  }
+  .footer__links--bottom ul li a {
+    text-decoration: none;
+  }
 }
-.footer__links--main ul {
-  @include navbar();
-}
-.footer__links--main ul li a {
-  text-decoration: none;
-}
-.logo__udemy {
-  @include display();
-}
-.footer__links--bottom ul {
-  @include navbar();
-}
-.footer__links--bottom ul li a {
-  text-decoration: none;
-}
-.col-lg-3 a {
-  text-decoration: none;
-  color: black;
-}
-.carousel__items-block {
-  margin-right: 13px;
-}
-.carousel__items-block-brand {
-  display: flex !important;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.5em;
-  align-items: center;
-  margin-bottom: 18px;
-}
-.carousel__items {
-  padding: 50px;
-  margin-right: 15px;
-  background: #fff;
-  border: 1px solid rgb(218, 218, 218);
-}
-.carousel__items-block-brand--img {
-  height: 70px;
-  border-radius: 20rem;
-  width: 70px;
-}
-.carousel__items-block-brand--name {
-  margin-left: 10px;
-}
-.user-avatar__inner {
-  height: 70px;
-  width: 70px;
-  position: relative;
-  background: #6c757d;
-  border-radius: 50px;
-}
-.user-initials {
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  left: 0;
-  color: white;
-}
-.non-student-cta__header a {
-  text-decoration: none;
-  color: black;
-}
+
 .btn {
   width: 200px;
   border-radius: 5px;
   height: 40px;
-  background: #ec5252;
+  background: $color-red-0;
   border: none;
 }
 .btn:hover {
   background: #772c2c;
 }
+
 .footer__links--main ul {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   height: 110px;
   font-size: 18px;
+  padding: 0 125px;
 }
 .footer-v6 .footer__links--main ul li {
   flex: 25%;
@@ -137,29 +141,30 @@
   font-weight: 700;
 }
 a {
-  color: #007791;
+  color: $color-blue;
 }
 
 .drop-list {
   height: 30%;
   width: 30%;
-  background: white;
-  border: 1px solid rgb(105, 105, 105);
+  background: $color;
+  border: 1px solid $color-black-dark-2;
   position: relative;
+  .span-lang {
+    position: absolute;
+    color: $color-black-dark-2;
+  }
+  .drop-list-icon {
+    left: 0;
+    padding-left: 28px;
+    color: $color-black-dark-2;
+  }
 }
-.span-lang {
-  position: absolute;
-  color: rgb(105, 105, 105);
-}
-.drop-list-icon {
-  left: 0;
-  padding-left: 28px;
-  color: rgb(105, 105, 105);
-}
+
 .footer-udemy {
   height: 34px;
-}
-.footer__copyright {
-  padding-right: 26rem;
-  color: black;
+  .footer__copyright {
+    padding-right: 23rem;
+    color: black;
+  }
 }

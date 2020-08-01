@@ -12,6 +12,10 @@
     border: 1px solid $color-gray-6;
     box-shadow: 1px 1px 5px $color-gray-6;
   }
+  a {
+    text-decoration: none;
+    color: $color-black-0;
+  }
 }
 // <!-- CAROUSEL-BORIVOJE-DIPESH-KATHY -->
 .carousel__categories--light-grey {
@@ -21,9 +25,9 @@
     .carousel__categories--items {
       @include display();
     }
-    .logo-item {
-      padding-left: 80px;
-    }
+    // .logo-item {
+    //   padding-left: 80px;
+    // }
     .carousel__items-block {
       margin-right: 13px;
     }
@@ -161,10 +165,16 @@ a {
   }
 }
 
-.footer-udemy {
-  height: 34px;
-  .footer__copyright {
-    padding-right: 23rem;
-    color: black;
-  }
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  right: 0;
+}
+.absolute1 {
+  position: absolute;
+  left: 0;
+  line-height: 20px;
+  padding-top: 7px;
 }

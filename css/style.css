@@ -94,6 +94,9 @@ body {
     width: 260px;
     border: 1px solid #a1a1a1;
     box-shadow: 1px 1px 5px #a1a1a1; }
+  .top-categories a {
+    text-decoration: none;
+    color: #29303b; }
 
 .carousel__categories--light-grey {
   background-color: #f7f8fa; }
@@ -101,8 +104,6 @@ body {
     margin-top: 50px; }
     .carousel__categories--light-grey .carousel__categories .carousel__categories--items, .carousel__categories--light-grey .non-student-cta-wrapper .carousel__categories--items {
       display: flex; }
-    .carousel__categories--light-grey .carousel__categories .logo-item, .carousel__categories--light-grey .non-student-cta-wrapper .logo-item {
-      padding-left: 80px; }
     .carousel__categories--light-grey .carousel__categories .carousel__items-block, .carousel__categories--light-grey .non-student-cta-wrapper .carousel__items-block {
       margin-right: 13px; }
     .carousel__categories--light-grey .carousel__categories .carousel__items-block-brand, .carousel__categories--light-grey .non-student-cta-wrapper .carousel__items-block-brand {
@@ -222,11 +223,18 @@ a {
     padding-left: 28px;
     color: dimgray; }
 
-.footer-udemy {
-  height: 34px; }
-  .footer-udemy .footer__copyright {
-    padding-right: 23rem;
-    color: black; }
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute;
+  right: 0; }
+
+.absolute1 {
+  position: absolute;
+  left: 0;
+  line-height: 20px;
+  padding-top: 7px; }
 
 .courses .service {
   background: linear-gradient(to right, #521822, #ec5252);

@@ -24,6 +24,11 @@ body {
   border-radius: 0;
   height: 40px; }
 
+.btn-1 {
+  width: 80px;
+  border-radius: 0;
+  height: 40px; }
+
 .btn_login {
   border: 1px solid #29303b;
   margin-left: 1px; }
@@ -181,27 +186,17 @@ body {
   .container-fluid .footer__links--bottom ul li a {
     text-decoration: none; }
 
-.btn {
+.footer__main a {
+  text-decoration: none; }
+
+.non-student-cta .non-student-cta__text .non-student-cta__link .btn {
   width: 200px;
-  border-radius: 5px;
-  height: 40px;
+  border-radius: 2px;
+  height: 50px;
   background: #ec5252;
   border: none; }
-
-.btn:hover {
+.non-student-cta .non-student-cta__text .non-student-cta__link .btn:hover {
   background: #772c2c; }
-
-.footer__links--main ul {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 110px;
-  font-size: 18px;
-  padding: 0 125px; }
-
-.footer-v6 .footer__links--main ul li {
-  flex: 25%;
-  flex-grow: 0; }
 
 .bold {
   font-weight: 700; }
@@ -210,18 +205,8 @@ a {
   color: #007791; }
 
 .drop-list {
-  height: 30%;
-  width: 30%;
-  background: white;
-  border: 1px solid dimgray;
-  position: relative; }
-  .drop-list .span-lang {
-    position: absolute;
-    color: dimgray; }
-  .drop-list .drop-list-icon {
-    left: 0;
-    padding-left: 28px;
-    color: dimgray; }
+  display: flex;
+  border: solid 2px black; }
 
 .relative {
   position: relative; }
@@ -235,6 +220,12 @@ a {
   left: 0;
   line-height: 20px;
   padding-top: 7px; }
+
+.absolute-footer ul {
+  list-style: none; }
+  .absolute-footer ul a {
+    text-decoration: none;
+    list-style: none; }
 
 .courses .service {
   background: linear-gradient(to right, #521822, #ec5252);

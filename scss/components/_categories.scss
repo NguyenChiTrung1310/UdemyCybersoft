@@ -117,29 +117,24 @@
     text-decoration: none;
   }
 }
-
-.btn {
-  width: 200px;
-  border-radius: 5px;
-  height: 40px;
-  background: $color-red-0;
-  border: none;
+.footer__main a {
+  text-decoration: none;
 }
-.btn:hover {
-  background: #772c2c;
-}
-
-.footer__links--main ul {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 110px;
-  font-size: 18px;
-  padding: 0 125px;
-}
-.footer-v6 .footer__links--main ul li {
-  flex: 25%;
-  flex-grow: 0;
+.non-student-cta {
+  .non-student-cta__text {
+    .non-student-cta__link {
+      .btn {
+        width: 200px;
+        border-radius: 2px;
+        height: 50px;
+        background: $color-red-0;
+        border: none;
+      }
+      .btn:hover {
+        background: #772c2c;
+      }
+    }
+  }
 }
 .bold {
   font-weight: 700;
@@ -147,24 +142,10 @@
 a {
   color: $color-blue;
 }
-
 .drop-list {
-  height: 30%;
-  width: 30%;
-  background: $color;
-  border: 1px solid $color-black-dark-2;
-  position: relative;
-  .span-lang {
-    position: absolute;
-    color: $color-black-dark-2;
-  }
-  .drop-list-icon {
-    left: 0;
-    padding-left: 28px;
-    color: $color-black-dark-2;
-  }
+  display: flex;
+  border: solid 2px black;
 }
-
 .relative {
   position: relative;
 }
@@ -177,4 +158,11 @@ a {
   left: 0;
   line-height: 20px;
   padding-top: 7px;
+}
+.absolute-footer ul {
+  list-style: none;
+  a {
+    text-decoration: none;
+    list-style: none;
+  }
 }
